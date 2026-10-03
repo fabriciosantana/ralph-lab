@@ -1,0 +1,10 @@
+$ ./install-agent-artifacts.sh
+2026-10-03T18:00:01Z created settings=/tmp/ralph-lab-test/settings.json
+2026-10-03T18:00:01Z installed target=/tmp/ralph-lab-test
+
+$ ./install-agent-artifacts.sh
+2026-10-03T18:00:02Z already installed: settings marker present
+2026-10-03T18:00:02Z installed target=/tmp/ralph-lab-test (no changes; no new backup)
+
+$ ./install-agent-artifacts.sh --uninstall
+2026-10-03T18:00:03Z uninstalled target=/tmp/ralph-lab-test restored_backup=/tmp/ralph-lab-test/settings.json
