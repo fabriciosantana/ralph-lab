@@ -1,2 +1,6 @@
 Ralph pipeline: validating join, pivot, tests and web artifact
-/opt/conda/bin/python3: No module named pytest
+....                                                                     [100%]
+4 passed in 0.05s
+join rows=420 revenue=931274.06
+pivot total=931274.06
+DONE
