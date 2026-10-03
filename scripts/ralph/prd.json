@@ -1,0 +1,15 @@
+{
+  "project": "ralph-lab",
+  "goal": "Transform vendas.csv and lojas.csv into validated reporting artifacts.",
+  "done_when": [
+    "pytest passes with at least four tests",
+    "inner join contains exactly 420 rows and receita_brl sums to 931274.06",
+    "pivot has regiao plus six month columns and total 931274.06",
+    "index.html contains a chart and a substantial conclusion paragraph",
+    "all artifacts are reproducible and no secrets are committed"
+  ],
+  "iterations": [
+    {"attempt": 1, "result": "initial join included orphan rows"},
+    {"attempt": 2, "result": "filtered orphan ids and verified totals"}
+  ]
+}

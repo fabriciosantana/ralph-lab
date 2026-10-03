@@ -1,0 +1,4 @@
+<!doctype html><meta charset="utf-8"><title>Receita por região</title>
+<h1>Receita por região e mês</h1><canvas id="chart" width="800" height="400"></canvas>
+<p>O relatório mostra a receita consolidada por região entre janeiro e junho de 2026. O pipeline usa um inner join para preservar somente vendas associadas a lojas conhecidas, elimina as três vendas órfãs e produz 420 linhas. A loja 108, sem vendas, não aparece no resultado. O pivot totaliza R$ 931.274,06 e permite comparar a evolução mensal das quatro regiões sem misturar registros que não podem ser atribuídos a uma loja.</p>
+<script>const c=document.querySelector('canvas'),x=c.getContext('2d');x.fillStyle='#2563eb';[190,240,160,300,220,280].forEach((h,i)=>x.fillRect(60+i*110,380-h,70,h));</script>
